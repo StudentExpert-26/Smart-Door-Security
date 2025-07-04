@@ -1,0 +1,12 @@
+
+# requirements.txt
+
+opencv-python
+opencv-contrib-python
+numpy
+pyfirmata
+Pillow
+gspread
+oauth2client
+google-api-python-client
+mediapipe

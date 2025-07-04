@@ -1,0 +1,27 @@
+face-door-lock/
+├── venv/
+├── main.py
+├── requirements.txt
+├── datasets/
+├── snapshots/
+├── detection/
+│   ├── face_detect.py
+│   ├── haarcascade_frontalface_default.xml
+│   └── labels.json
+├── models/
+│   ├── Trainer.yml
+│   └── shape_predictor_68_face_landmarks.dat
+├── cloud/
+│   ├── drive_uploader.py
+│   └── sheets_logger.py
+├── training/
+│   ├── collect_dataset.py
+│   └── train_model.py
+├── hardware/
+│   ├── controller.py
+│   └── test_controller.py
+├── credentials/
+│   └── creds.json
+├── logs/
+│   └── confidence_log.csv
+└── project.code-workspace

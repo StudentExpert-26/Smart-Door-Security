@@ -1,0 +1,22 @@
+flowchart TD
+    CAM[Webcam Input] --> DETECT[Face Detection<br>(Haar Cascade)]
+    DETECT -->|Each face| RECOG[Face Recognition<br>(LBPH)]
+    RECOG --> CONF[Check Confidence]
+    CONF -->|Conf < 50| SPOOF[Blink Detection<br>(MediaPipe)]
+    SPOOF -->|Blink OK| ACCESS[Access Granted]
+    SPOOF -->|No Blink| DENY1[Access Denied]
+
+    CONF -->|Conf >= 50| DENY2[Access Denied]
+
+    ACCESS --> SERVO[Unlock Door<br>(Servo Motor)]
+    ACCESS --> LEDG[Green LED + Buzz]
+    ACCESS --> UPLOAD[Upload Snapshot<br>to Google Drive]
+    ACCESS --> SHEET[Log to Google Sheets]
+
+    DENY1 --> LEDR[Red LED + Buzz]
+    DENY2 --> LEDR
+
+    classDef good fill:#c0f8c0,stroke:#333;
+    classDef bad fill:#f8c0c0,stroke:#333;
+    class ACCESS,UPLOAD,SHEET,SERVO,LEDG good;
+    class DENY1,DENY2,LEDR bad;

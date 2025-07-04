@@ -1,0 +1,28 @@
+# 🔒 Environment folders
+venv/
+__pycache__/
+
+# 🧠 Model and dataset
+datasets/
+models/
+
+# 📸 Snapshots captured by camera
+snapshots/
+
+# 🔐 API credentials (do NOT upload!)
+credentials/
+
+# 🧾 Local logs or CSVs
+*.csv
+
+# 🗑 System files
+.DS_Store
+Thumbs.db
+
+# 🔧 Python cache
+*.pyc
+*.pyo
+*.pyd
+
+# 🚫 VS Code settings (optional, if personal)
+.vscode/

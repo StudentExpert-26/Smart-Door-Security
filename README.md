@@ -131,8 +131,9 @@ Use `pyfirmata` to connect via `COM7` (adjust if needed in `controller.py`).
 
 | Timestamp        | Name    | Confidence | Image    |
 | ---------------- | ------- | ---------- | -------- |
-| 2025-07-01 13:10 | Alice   | 23.4       | ✅ inline |
+| 2025-07-01 13:10 | Masum   | 23.4       | ✅ inline |
 | 2025-07-01 13:11 | Unknown | 78.6       | ✅ inline |
+| 2025-07-01 13:13 | Toha   | 23.4       | ✅ inline |
 
 ---
 
@@ -167,11 +168,3 @@ You're now fully set up with:
 - Professional documentation ✅
 
 ---
-
-Would you like me to now:
-- 🧠 Add **MediaPipe-based blink detection**?
-- 🎨 Generate a **block diagram** (hardware/software flow)?
-- 📦 Package the whole thing into a shareable zip or GitHub-ready format?
-
-Let me know what you'd like next!
-```

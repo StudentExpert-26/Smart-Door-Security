@@ -133,7 +133,7 @@ Use `pyfirmata` to connect via `COM7` (adjust if needed in `controller.py`).
 | ---------------- | ------- | ---------- | -------- |
 | 2025-07-01 13:10 | Masum   | 23.4       | ✅ inline |
 | 2025-07-01 13:11 | Unknown | 78.6       | ✅ inline |
-| 2025-07-01 13:13 | Toha   | 23.4       | ✅ inline |
+| 2025-07-01 13:13 | Toha   | 23.2       | ✅ inline |
 
 ---
 
@@ -148,23 +148,11 @@ Use `pyfirmata` to connect via `COM7` (adjust if needed in `controller.py`).
 
 ## 👤 Author
 
-**Project by:** Student Expert
+**Project by:** Shah Ismail Talukdar
 **Tooling:** Python, OpenCV, PyFirmata, Google Cloud, Arduino
 
 ---
 
 ```
-
----
-
-## ✅ Project Ready!
-
-You're now fully set up with:
-
-- Modular code ✅  
-- Cloud logging ✅  
-- Hardware control ✅  
-- ≥97% accuracy-ready structure ✅  
-- Professional documentation ✅
 
 ---
